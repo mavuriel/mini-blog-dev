@@ -126,22 +126,22 @@ Error generating stack: `+o.message+`
   max-height: 18rem;
   width: 18rem;
   object-fit: cover;
-`;const Rm=Re.h1`
+`,Rm="https://mavuriel.github.io/mini-blog-dev/assets/IMG_20220113_143917.1e2585f8.jpg";const $m=Re.h1`
   ${Nm}
   margin: 0;
-`,$m=Re.div`
+`,Lm=Re.div`
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-`,Lm=({className:e})=>{const[t]=de.exports.useContext(jr);return G(Wf,{children:ut("header",{className:e,children:[ut($m,{children:[ut(Rm,{children:["Bienvenidos,  mi nombre es ",G(Tm,{children:"Uriel Tenorio"})]}),ut(Qf,{justify:"start",children:[G(ya,{theme:t,children:"Mis proyectos"}),G(ya,{theme:t,children:"Descarga mi CV"})]}),G(Vf,{children:"Mis articulos"})]}),G(zm,{src:"/IMG_20220113_143917.jpg",alt:"Foto de Uriel"})]})})};var Am=Re(Lm)`
+`,Am=({className:e})=>{const[t]=de.exports.useContext(jr);return G(Wf,{children:ut("header",{className:e,children:[ut(Lm,{children:[ut($m,{children:["Bienvenidos,  mi nombre es ",G(Tm,{children:"Uriel Tenorio"})]}),ut(Qf,{justify:"start",children:[G(ya,{theme:t,children:"Mis proyectos"}),G(ya,{theme:t,children:"Descarga mi CV"})]}),G(Vf,{children:"Mis articulos"})]}),G(zm,{src:Rm,alt:"Foto de Uriel"})]})})};var Om=Re(Am)`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 3.8rem 0;
   align-items: center;
-`;const Om=Re.div`
+`;const Im=Re.div`
   background-color: ${e=>{var t,n,r;return(r=(n=(t=e==null?void 0:e.theme)==null?void 0:t.colors)==null?void 0:n.background)!=null?r:"#14213d"}};
   color: ${e=>{var t,n,r;return(r=(n=(t=e==null?void 0:e.theme)==null?void 0:t.colors)==null?void 0:n.text)!=null?r:"#fff"}};
   transition: all 0.3s ease-in;
-`,Im=({children:e})=>{const[t]=de.exports.useContext(jr);return G(Om,{theme:t,children:e})};function Dm(){return G("div",{className:"App",children:G(gm,{children:G(xm,{children:ut(Im,{children:[G(Am,{}),G(Em,{}),G(Pm,{})]})})})})}Xo.createRoot(document.getElementById("root")).render(G(Lr.StrictMode,{children:G(Dm,{})}));
+`,Dm=({children:e})=>{const[t]=de.exports.useContext(jr);return G(Im,{theme:t,children:e})};function Mm(){return G("div",{className:"App",children:G(gm,{children:G(xm,{children:ut(Dm,{children:[G(Om,{}),G(Em,{}),G(Pm,{})]})})})})}Xo.createRoot(document.getElementById("root")).render(G(Lr.StrictMode,{children:G(Mm,{})}));
