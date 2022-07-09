@@ -7,6 +7,7 @@ import Container from '../elements/Container'
 import Row from '../elements/Row'
 import StyledSpan from '../elements/StyledSpan'
 import CircleImage from '../elements/CircleImage'
+import profileImg from './IMG_20220113_143917.jpg'
 
 const H1Title = styled.h1`
   ${titleStyles}
@@ -39,7 +40,7 @@ const Header = ({ className }) => {
           </Row>
           <LinkSecondaryButton>Mis articulos</LinkSecondaryButton>
         </InfoContainer>
-        <CircleImage src="/IMG_20220113_143917.jpg" alt="Foto de Uriel" />
+        <CircleImage src={profileImg} alt="Foto de Uriel" />
       </header>
     </Container>
   )
